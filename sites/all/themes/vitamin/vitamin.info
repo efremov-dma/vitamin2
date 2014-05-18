@@ -1,0 +1,53 @@
+name = Vitamin
+description = A vitamin theme
+core = 7.x
+
+base theme = omega
+
+stylesheets[all][] = css/style.css
+
+; REGIONS
+
+; REQUIRED CORE REGIONS
+
+regions[page_top] = Page Top
+regions[page_bottom] = Page Bottom
+regions[content] = Content
+
+; END REQUIRED CORE REGIONS
+
+
+regions[header] = Header
+regions[menu] = Menu
+regions[footer] = Footer
+
+
+
+;regions[user_first] = User Bar First
+;regions[user_second] = User Bar Second
+
+;regions[branding] = Branding
+
+regions[sidebar_first] = Sidebar First
+regions[sidebar_second] = Sidebar Second
+
+;regions[header_first] = Header First
+;regions[header_second] = Header Second
+
+;regions[preface_first] = Preface First
+;regions[preface_second] = Preface Second
+;regions[preface_third] = Preface Third
+
+;regions[postscript_first] = Postscript First
+;regions[postscript_second] = Postscript Second
+;regions[postscript_third] = Postscript Third
+;regions[postscript_fourth] = Postscript Fourth
+
+;regions[footer_first] = Footer First
+;regions[footer_second] = Footer Second
+
+; ZONES
+
+zones[header] = Header
+zones[footer] = Footer
+zones[content] = Content
